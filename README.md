@@ -2,6 +2,8 @@
 
 Find your place. Feel at home.
 
+Live demo: https://nestora-ashen.vercel.app
+
 Nestora is a student accommodation discovery app for India — a clean, trustworthy way to find PGs, hostels and shared flats near campus. It focuses on the things students actually care about: honest pricing, verified listings, distance to college, food, and finding the right person to share a place with.
 
 This is a front-end project built with React and Vite. All data is local mock data, and demo interactions (enquiries, visits, sign-in) are simulated on the device — no backend required.
@@ -79,4 +81,3 @@ src/
 ## Notes
 
 Nestora runs entirely in the browser as a demo. Sign-in accepts any details, and enquiries or visit requests are simulated locally rather than sent to a real owner. The listings, reviews and roommate profiles are illustrative sample data.
-
