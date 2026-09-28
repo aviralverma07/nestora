@@ -1,11 +1,11 @@
 const cityImg = (id) => `https://images.unsplash.com/${id}?auto=format&fit=crop&w=800&q=70`
 
 export const featuredCities = [
-  { id: 'dehradun', name: 'Dehradun', state: 'Uttarakhand', count: 3, image: cityImg('photo-1600100397608-f8b4b2e6f8e9') },
+  { id: 'dehradun', name: 'Dehradun', state: 'Uttarakhand', count: 3, image: cityImg('photo-1600585154340-be6161a56a0c') },
   { id: 'delhi', name: 'Delhi', state: 'NCR', count: 3, image: cityImg('photo-1587474260584-136574528ed5') },
   { id: 'bangalore', name: 'Bangalore', state: 'Karnataka', count: 3, image: cityImg('photo-1596176530529-78163a4f7af2') },
   { id: 'pune', name: 'Pune', state: 'Maharashtra', count: 3, image: cityImg('photo-1572445271230-a78b5944a659') },
-  { id: 'hyderabad', name: 'Hyderabad', state: 'Telangana', count: 3, image: cityImg('photo-1600100397608-f8b4b2e6f8e9') },
+  { id: 'hyderabad', name: 'Hyderabad', state: 'Telangana', count: 3, image: cityImg('photo-1560184897-ae75f418493e') },
   { id: 'jaipur', name: 'Jaipur', state: 'Rajasthan', count: 2, image: cityImg('photo-1477587458883-47145ed94245') },
 ]
 

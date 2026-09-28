@@ -379,6 +379,10 @@
   .auth-panel { min-height: 80vh; }
 
   .compare-fab { bottom: calc(var(--bottomnav-h) + 16px); right: 16px; }
+  .toast-wrap { bottom: calc(var(--bottomnav-h) + 16px); }
+  .searchbox-row { flex-wrap: wrap; }
+  .sb-field { flex: 1 1 100%; }
+  .sb-budget { flex: 1 1 auto; }
 }
 
 @media (max-width: 560px) {
@@ -398,4 +402,9 @@
   .steps-nav { justify-content: space-between; }
   .rating-summary { gap: var(--space-3); }
   .list-media { width: 84px; }
+  .explore-controls { flex-wrap: wrap; }
+  .searchbox-row { flex-direction: column; align-items: stretch; }
+  .sb-budget { flex: 1 1 auto; }
+  .searchbox-row .btn { width: 100%; }
+  .input, .select, .textarea, .sb-field input { font-size: 16px; }
 }
